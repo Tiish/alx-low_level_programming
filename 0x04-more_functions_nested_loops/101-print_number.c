@@ -1,4 +1,4 @@
-*
+/*
  * File: 101-print_number.c
  * Auth: Tiish
  */
