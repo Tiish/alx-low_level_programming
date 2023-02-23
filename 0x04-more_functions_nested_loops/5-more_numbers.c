@@ -1,7 +1,7 @@
 /*
  * File: 5-more_numbers.c
  * Auth: Tiish
- * */
+ */
 
 #include "main.h"
 
