@@ -1,11 +1,19 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int a[] = { 5, 15, 98, 12, 123 };
-    int *p = a;
+    int n;
+    int a[5];
+    int *p;
 
-    printf("a[2] = %d\n", *(p + 2)); // Adding this line to print a[2] = 98
+    a[2] = 1024;
+    p = &n;
+
+    /* Add this line to modify the memory location after the end of the array */
+    *(p + 12) = 98;
+
+    printf("%d\n", *(a + 2));  // This will print 1024
+    printf("%d\n", *(p + 12)); // This will print 98
 
     return 0;
 }
